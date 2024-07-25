@@ -1,7 +1,10 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { useRouter } from 'next/router'
+import { useConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
+  faviconGlyph: '📓',
   logo: <span>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -9,6 +12,7 @@ const config: DocsThemeConfig = {
       height="45"
       version="1.1"
       viewBox="0 0 400 400"
+      style={{display:'inline-flex',}}
 
     >
       <g fillRule="evenodd" stroke="none">
@@ -30,14 +34,32 @@ const config: DocsThemeConfig = {
         ></path>
       </g>
     </svg>
+    <span style={{fontSize:24, fontWeight:700, paddingTop:10,}}> Chumas Docs</span>
     </span>,
  
  
-
+   useNextSeoProps() {
+     return {
+      titleTemplate:"Chumas Docs - %s",
+     }
+   },
   footer: {
     text: 'Copyright 2024 neocloud Technologies',
   },
   primaryHue:45,
-}
+  
+  head: (
+    <>
+      {/* Other head tags */}
+      <link rel="shortcut icon" href="/favicon.ico" />
+    </>
+  )
+  
+
+  }
+
+
+
+
 
 export default config
