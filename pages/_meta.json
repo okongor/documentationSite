@@ -1,7 +1,27 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    
+      "title": "Introduction",
+      "theme": {
+        "layout": "full"
+        
+        
+      }
+    
+   
+  },
+  "Gettingstarted": "Getting Started",
+  "dashboard":"Dashboard",
+
+  "advanced":{
+    "title":"Product Management"
+    
+  } ,
+
+  "promotionmanaggement":{
+    "title":"Promotion Management"
+    
+  } ,
   "about": {
     "title": "About",
     "type": "page"
@@ -11,5 +31,9 @@
     "type": "page",
     "href": "https://twitter.com/shuding_",
     "newWindow": true
+  },
+  
+  "another": {
+    "title":"Limited Stocks"
   }
 }

@@ -1,0 +1,45 @@
+{
+    "newCategory": {
+        "title": "Create a new category"
+        
+       
+      },
+
+     
+
+      "subcategory": {
+        "title": "Create a Sub-category"
+        
+      
+      },
+      "searchcategory": {
+        "title": "Search for a Sub-category"
+        
+        
+      },
+      "attributetable": {
+        "title": "Create a new Attribute Table"
+        
+        
+      },
+      "addingnewproducts": {
+        "title": "Create New Products"
+        
+        
+      },
+      "viewproducts": {
+        "title": "View Created Products"
+        
+        
+      },
+      "bulkimport": {
+        "title": "Perform a Bulk Import"
+        
+        
+      },
+      "bulkexport": {
+        "title": "Perform a Bulk Export"
+        
+        
+      }
+}

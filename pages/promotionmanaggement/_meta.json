@@ -1,0 +1,50 @@
+{
+    
+    "productbanner": {
+        "title": "Creating a Product Banner"
+        
+      
+      },
+
+    "categorybanner": {
+        "title": "Creating a Category Banner"
+        
+      
+      },
+      "discount": {
+        "title": "Creating a General Discount"
+        
+      
+      },
+      "categorydiscount": {
+        "title": "Creating Category Discount"
+        
+      
+      },
+      "fod": {
+        "title": "Creating a First Order Discount"
+        
+      
+      },
+      "fdd": {
+        "title": "Creating a Free Delivery Discount"
+        
+      
+      },
+      "cwd": {
+        "title": "Creating a Customer Wise Discount"
+        
+      
+      },
+      "sendnotifications": {
+        "title": "Sending a Push Notification"
+        
+      
+      },
+      "flashsales": {
+        "title": "Creating a Flash sale"
+        
+      
+      }
+}
+
