@@ -48,12 +48,7 @@ const config: DocsThemeConfig = {
   },
   primaryHue:45,
   
-  head: (
-    <>
-      {/* Other head tags */}
-      <link rel="shortcut icon" href="/favicon.ico" />
-    </>
-  )
+ 
   
 
   }

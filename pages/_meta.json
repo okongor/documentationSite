@@ -31,5 +31,10 @@
   
   "another": {
     "title":"Limited Stocks"
-  }
+  },
+
+  "possystem":{
+    "title":" POS System"
+    
+  } 
 }
