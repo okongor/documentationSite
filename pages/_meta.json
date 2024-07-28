@@ -22,7 +22,12 @@
     "title": "About",
     "type": "page"
   },
-
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "#",
+    "newWindow": true
+  },
   
   "another": {
     "title":"Limited Stocks"
